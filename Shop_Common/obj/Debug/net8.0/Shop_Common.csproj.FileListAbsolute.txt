@@ -1,0 +1,14 @@
+C:\Users\Артуро\source\repos\Shop\Shop_Common\bin\Debug\net8.0\Shop_Common.deps.json
+C:\Users\Артуро\source\repos\Shop\Shop_Common\bin\Debug\net8.0\Shop_Common.dll
+C:\Users\Артуро\source\repos\Shop\Shop_Common\bin\Debug\net8.0\Shop_Common.pdb
+C:\Users\Артуро\source\repos\Shop\Shop_Common\obj\Debug\net8.0\Shop_Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Артуро\source\repos\Shop\Shop_Common\obj\Debug\net8.0\Shop_Common.AssemblyInfoInputs.cache
+C:\Users\Артуро\source\repos\Shop\Shop_Common\obj\Debug\net8.0\Shop_Common.AssemblyInfo.cs
+C:\Users\Артуро\source\repos\Shop\Shop_Common\obj\Debug\net8.0\Shop_Common.csproj.CoreCompileInputs.cache
+C:\Users\Артуро\source\repos\Shop\Shop_Common\obj\Debug\net8.0\Shop_Common.dll
+C:\Users\Артуро\source\repos\Shop\Shop_Common\obj\Debug\net8.0\refint\Shop_Common.dll
+C:\Users\Артуро\source\repos\Shop\Shop_Common\obj\Debug\net8.0\Shop_Common.pdb
+C:\Users\Артуро\source\repos\Shop\Shop_Common\obj\Debug\net8.0\ref\Shop_Common.dll
+C:\Users\Adeli\Downloads\Shop (1)\Shop\Shop_Common\obj\Debug\net8.0\Shop_Common.dll
+C:\Users\Adeli\Downloads\Shop (1)\Shop\Shop_Common\obj\Debug\net8.0\refint\Shop_Common.dll
+C:\Users\Adeli\Downloads\Shop (1)\Shop\Shop_Common\obj\Debug\net8.0\Shop_Common.pdb

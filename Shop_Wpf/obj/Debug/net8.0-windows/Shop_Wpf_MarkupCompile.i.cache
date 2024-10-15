@@ -1,0 +1,20 @@
+﻿Shop_Wpf
+1.0.0.0
+
+winexe
+C#
+.cs
+C:\Users\Adeli\Downloads\Shop (1)\Shop\Shop_Wpf\obj\Debug\net8.0-windows\
+Shop_Wpf
+none
+false
+TRACE;DEBUG;NET;NET8_0;NETCOREAPP
+C:\Users\Adeli\Downloads\Shop (1)\Shop\Shop_Wpf\App.xaml
+51697399617
+
+151714710440
+352-990989041
+Views\Pages\AuthorizationPage.xaml;Views\Pages\ManipulationPage.xaml;Views\Pages\RegistrationPage.xaml;Views\Pages\ViewProductsPage.xaml;Views\Windows\MainWindow.xaml;
+
+True
+

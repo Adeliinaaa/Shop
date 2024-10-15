@@ -1,0 +1,48 @@
+﻿<Page x:Class="Shop_Wpf.Views.Pages.ViewProductsPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Shop_Wpf.Views.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Отображение товаров">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <DataGrid Grid.Row="1" ItemsSource="{Binding Products}" AutoGenerateColumns="False" IsReadOnly="True">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Артикул" Binding="{Binding Path=ProductArticleNumber}"></DataGridTextColumn>
+                <DataGridTextColumn Header="Наименование" Binding="{Binding Path=Name}"></DataGridTextColumn>
+                <DataGridTextColumn Header="Измерение" Binding="{Binding Path=Measure}"></DataGridTextColumn>
+                <DataGridTextColumn Header="Стоимость" Binding="{Binding Path=Cost}"></DataGridTextColumn>
+                <DataGridTextColumn Header="Описание" Binding="{Binding Path=Description}"></DataGridTextColumn>
+                <DataGridTextColumn Header="Тип" Binding="{Binding Path=ProductType}"></DataGridTextColumn>
+                <DataGridTextColumn Header="Поставшик" Binding="{Binding Path=Supplier}"></DataGridTextColumn>
+                <DataGridTextColumn Header="Производитель" Binding="{Binding Path=Manufacturer}"></DataGridTextColumn>
+                <DataGridTextColumn Header="Скидка" Binding="{Binding Path=CurrentDiscount}"></DataGridTextColumn>
+                <DataGridTextColumn Header="Статус" Binding="{Binding Path=Status}"></DataGridTextColumn>
+                <DataGridTextColumn Header="Кол-во на складе" Binding="{Binding Path=QuantityInStock}"></DataGridTextColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+
+
+        <StackPanel HorizontalAlignment="Left" Orientation="Horizontal" VerticalAlignment="Center">
+            <TextBox Text="{Binding Search , UpdateSourceTrigger=PropertyChanged}"  Height="30" Width="120"  TextWrapping="Wrap"></TextBox>
+            <ComboBox ItemsSource="{Binding ProductTypes}" SelectedItem="{Binding ProductType, UpdateSourceTrigger=PropertyChanged}" DisplayMemberPath="Name" Width="120" Height="30"></ComboBox>
+        </StackPanel>
+
+        <Button Command="{Binding ResetCommand}" Height="30" Width="120" HorizontalAlignment="Right" Content="Сбросить"/>
+
+        <StackPanel HorizontalAlignment="Right" VerticalAlignment="Center" Orientation="Horizontal" Margin="0,0,120,0">
+            <Label>Отображается</Label>
+            <Label Content="{Binding QuantityOfProductsDisplayed, UpdateSourceTrigger=PropertyChanged}"></Label>
+            <Label>из</Label>
+            <Label Content="{Binding QuantityOfProducts, UpdateSourceTrigger=PropertyChanged}"></Label>
+            <Button Command="{Binding CreateCommand}"  Height="30" Width="120">Создать</Button>
+        </StackPanel>
+    </Grid>
+</Page>
